@@ -1,0 +1,18 @@
+body {
+	font-family: system-ui, sans-serif;
+	color: #712c9e;
+	line-height: 1.6;
+}
+
+h1 {
+	color: #159943;
+}
+
+img {
+	width: 25%;
+}
+
+.moreAbouts {
+	display: flex;
+	gap: 2rem;
+}
