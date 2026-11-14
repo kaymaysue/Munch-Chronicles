@@ -1,8 +1,6 @@
-page {
-	text-align: center
-}
-
 body {
+	margin: 0 auto;
+	text-align: center;
 	font-family: system-ui, sans-serif;
 	color: #712c9e;
 	line-height: 1.6;
@@ -16,7 +14,10 @@ img {
 	width: 25%;
 }
 
-.moreAbouts {
+nav {
+	background-color: green;
 	display: flex;
-	gap: 2rem;
+	justify-content: center;
+	align-items: center;
+	gap: 5rem;
 }
