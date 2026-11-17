@@ -1,5 +1,7 @@
 body {
 	margin: 0 auto;
+	max-width: 60rem;
+
 	text-align: center;
 	font-family: system-ui, sans-serif;
 	color: #712c9e;
@@ -23,5 +25,7 @@ nav {
 }
 
 .description {
+	margin: 0 auto;
 	text-align: left;
+	max-width: 40rem;
 }
