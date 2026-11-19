@@ -1,9 +1,13 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	margin: 0 auto;
-	max-width: 60rem;
-
+	max-width: 1100px;
 	text-align: center;
 	font-family: system-ui, sans-serif;
+	font-size: 1rem;
 	color: #712c9e;
 	line-height: 1.6;
 }
@@ -13,7 +17,8 @@ h1 {
 }
 
 img {
-	width: 25%;
+	max-width: 100%;
+	height: auto;
 }
 
 nav {
@@ -21,11 +26,31 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 5rem;
+	gap: 2rem;
 }
 
 .description {
 	margin: 0 auto;
 	text-align: left;
 	max-width: 40rem;
+}
+
+.kaartenrij {
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: auto;
+}
+
+.kaart {
+	flex: 1 1 250px;
+	padding: 1rem;
+	border: 1px solid #d0d0d0;
+	border-radius: 6px;
+}
+
+.tekstkolom {
+	max-width: 65ch;
+	margin: 0 auto;
 }
