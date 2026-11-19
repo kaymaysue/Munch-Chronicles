@@ -4,7 +4,7 @@
 
 body {
 	margin: 0 auto;
-	max-width: 60rem;
+	max-width: 1100px;
 	text-align: center;
 	font-family: system-ui, sans-serif;
 	color: #712c9e;
@@ -24,7 +24,7 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 5rem;
+	gap: 2rem;
 }
 
 .description {
@@ -40,6 +40,7 @@ nav {
 	justify-content: center;
 	align-items: auto;
 }
+
 .kaart {
 	flex: 1 1 250px;
 	padding: 1rem;
