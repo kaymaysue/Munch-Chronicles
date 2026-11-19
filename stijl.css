@@ -38,7 +38,7 @@ nav {
 	gap: 1rem;
 	flex-wrap: wrap;
 	justify-content: center;
-	align-items: stretch;
+	align-items: auto;
 }
 .kaart {
 	flex: 1 1 250px;
